@@ -1,0 +1,26 @@
+header {
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+}
+
+.the-button {
+  height: 5rem;
+  width: 7rem;
+}
+
+.reveal-content {
+  display: none;
+}
+
+.show {
+  display: block;
+}
