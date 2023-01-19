@@ -1,3 +1,7 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1602501348666-c721dadd6e59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+}
+
 header {
   background: linear-gradient(
     45deg,
@@ -12,9 +16,25 @@ header {
   );
 }
 
+#header-title {
+  text-align: center;
+}
+
 .the-button {
   height: 5rem;
   width: 7rem;
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  color: white;
 }
 
 .reveal-content {
