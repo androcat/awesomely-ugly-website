@@ -1,5 +1,6 @@
 body {
   background-image: url("https://images.unsplash.com/photo-1602501348666-c721dadd6e59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+  color: white;
 }
 
 header {
@@ -43,4 +44,38 @@ header {
 
 .show {
   display: block;
+}
+
+.balloon-img {
+  width: 30px;
+}
+
+article {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#clown-doll-img {
+  width: 200px;
+  float: right;
+}
+article {
+  background-color: black;
+}
+
+form {
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  width: 100px;
+  position: absolute;
+  right: 0;
 }
